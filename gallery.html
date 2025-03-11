@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interactive Photo Gallery</h1>
+
+    <!-- The main display area -->
+    <div id="image">Hover over an image below to display here.</div>
+
+    <!-- Image thumbnails -->
+    <div class="gallery">
+        <img src="car 1.jpg" alt="car" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img src="car 3.jpg" alt="car" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img src="car 4.jpg" alt="car" onmouseover="upDate(this)" onmouseout="unDo()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
